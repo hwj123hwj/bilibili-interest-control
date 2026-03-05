@@ -1,0 +1,56 @@
+{
+  "active_focus": "AI",
+  "focus_profiles": {
+    "AI": {
+      "name": "AI",
+      "keywords": [
+        "AI",
+        "人工智能",
+        "大模型",
+        "机器学习",
+        "LLM",
+        "Agent"
+      ],
+      "blocked_keywords": [
+        "明星",
+        "八卦",
+        "综艺"
+      ]
+    },
+    "编程": {
+      "name": "编程",
+      "keywords": [
+        "编程",
+        "Python",
+        "后端",
+        "算法",
+        "系统设计",
+        "开发"
+      ],
+      "blocked_keywords": [
+        "娱乐",
+        "追星",
+        "情感"
+      ]
+    }
+  },
+  "preferred_ups": {
+    "15741969": {
+      "uid": 15741969,
+      "name": "像素范",
+      "liked": true
+    }
+  },
+  "stance_rules": {
+    "15741969": {
+      "uid": 15741969,
+      "blocked_phrases": [
+        "AI取代程序员",
+        "程序员会被AI替代"
+      ]
+    }
+  },
+  "reminder": {
+    "off_topic_streak_threshold": 3
+  }
+}
